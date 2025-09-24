@@ -1,31 +1,60 @@
-package org.example;
+package org.TestCases;
 
-import com.microsoft.playwright.BrowserContext;
-import com.microsoft.playwright.Frame;
 import com.microsoft.playwright.Locator;
-import com.microsoft.playwright.Page;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
+import org.Utilites.ScreenShot;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class HomePage extends BaseClass {
 
     @BeforeMethod
     public void setup() {
         context = browser.newContext();
         page = context.newPage();
-        page.navigate("https://example.com");
+        page.navigate("https://automationexercise.com");
     }
 
-    @Test
+    //@AfterMethod
+    public void tearDown2() {
+        if (context != null) context.close();
+    }
+
+    @Test(priority = 1)
     public void testLogo() {
 
         //page.getByAltText("Website for automation practice").click();
         Locator logo = page.locator(
                 "xpath=//img[@alt='Website for automation practice']"
         );
+
+        logo.isVisible();
+        System.out.println("Logo is visible");
+
+    }
+
+    @Test(priority = 2)
+    public void ScrollToFooter() {
+        //page.locator(".fa fa-arrow-circle-o-right").scrollIntoViewIfNeeded();
+        Locator arrow = page.locator(".fa.fa-arrow-circle-o-right");
+        //arrow.scrollIntoViewIfNeeded();
+        arrow.hover();
+        arrow.isVisible();
+        arrow.isEnabled();
+        System.out.println("Scrolled to footer");
+    }
+
+    @Test(priority = 3)
+    public void ScrollToMiddle() {
+        //Locator element = page.locator("//div[@class='single-products']").getByAltText("Lace Top For Women");
+        Locator element = page.locator("//div[@class='single-products']")
+                        .getByText("Lace Top For Women").nth(1);
+
+        element.scrollIntoViewIfNeeded();
+        element.isVisible();
+    }
+
+    //@AfterClass
+    public void tearDown() {
+        context.close();
     }
 
 }
