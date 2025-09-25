@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AutomationExercise Suite" parallel="classes" thread-count="2">
+    <test name="All Tests">
+        <classes>
+            <class name="org.TestCases.HomePage">
+                <methods>
+                    <include name="testLogo"/>
+                </methods>
+            </class>
+            <class name="org.TestCases.ProductPage">
+                <methods>
+                    <include name="SaleOfferImage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
