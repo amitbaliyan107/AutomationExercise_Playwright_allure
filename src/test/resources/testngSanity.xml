@@ -2,7 +2,7 @@
 <suite name="AutomationExercise Suite" parallel="classes" thread-count="2">
     <test name="All Tests">
         <classes>
-            <class name="org.TestCases.HomePage">
+            <class name="org.TestCases.homePage">
                 <methods>
                     <include name="testLogo"/>
                 </methods>

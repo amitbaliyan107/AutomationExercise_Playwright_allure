@@ -1,0 +1,12 @@
+services:
+  playwright-tests:
+    build: .
+    container_name: playwright-test-runner
+    working_dir: /app
+    volumes:
+      - ./test-results:/app/test-results
+      - ./allure-report:/app/allure-report
+      - ./logs:/app/logs
+      - ./screenshots:/app/screenshots
+    environment:
+      - HEADLESS=true

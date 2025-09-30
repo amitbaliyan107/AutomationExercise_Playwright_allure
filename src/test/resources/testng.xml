@@ -3,8 +3,13 @@
 <suite name="AutomationExercise Suite">
     <test name="All Tests">
         <classes>
-            <class name="org.TestCases.HomePage"/>
+            <class name="org.TestCases.HomePageTests"/>
             <class name="org.TestCases.ProductPage"/>
         </classes>
     </test>
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+        <listener class-name="org.Listners.TestListener"/>
+        <!--<listener class-name="com"/>-->
+    </listeners>
 </suite>

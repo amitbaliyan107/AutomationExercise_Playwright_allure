@@ -1,0 +1,10 @@
+.git
+.gitignore
+README.md
+*.iml
+.idea/
+target/
+test-results/
+allure-report/
+node_modules/
+.DS_Store
