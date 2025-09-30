@@ -24,7 +24,7 @@
         <!-- Default TestNG XML -->
         <testng.xml>testng.xml</testng.xml>
         <!-- Allure Results Directory -->
-        <allure.results.directory>${project.basedir}/test-results/allure-results</allure.results.directory>
+        <allure.results.directory>/app/test-results/allure-results</allure.results.directory>
     </properties>
 
     <dependencies>
@@ -89,7 +89,7 @@
                     </suiteXmlFiles>
                     <argLine>
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
-                        -Dallure.results.directory=${allure.results.directory}
+                        -Dallure.results.directory=/app/test-results/allure-results
                     </argLine>
                     <properties>
                         <property>

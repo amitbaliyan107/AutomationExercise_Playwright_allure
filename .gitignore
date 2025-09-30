@@ -37,3 +37,11 @@ build/
 ### Mac OS ###
 .DS_Store
 allure-report/app.js
+/allure-report/data/behaviors.csv
+/allure-report/plugin/behaviors/index.js
+/allure-report/plugin/packages/index.js
+/test-results/allure-results
+/screenshots
+screenshots/SaleOfferImage_20250925_151322.png
+/test-results/allure-report
+/test-results/traces

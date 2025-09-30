@@ -1,12 +1,17 @@
+version: "3.9"
+
 services:
   playwright-tests:
     build: .
     container_name: playwright-test-runner
     working_dir: /app
     volumes:
-      - ./test-results:/app/test-results
-      - ./allure-report:/app/allure-report
+      - ./test-results/allure-results:/app/test-results/allure-results
+      - ./test-results/allure-report:/app/test-results/allure-report
+      - ./test-results/traces:/app/test-results/traces
       - ./logs:/app/logs
       - ./screenshots:/app/screenshots
     environment:
       - HEADLESS=true
+      - ALLURE_RESULTS_DIR=/app/test-results/allure-results
+      - ALLURE_REPORT_DIR=/app/test-results/allure-report
