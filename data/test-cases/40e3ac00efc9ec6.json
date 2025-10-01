@@ -1,0 +1,185 @@
+{
+  "uid" : "40e3ac00efc9ec6",
+  "name" : "testLogoVisibility",
+  "fullName" : "org.TestCases.HomePageTests.testLogoVisibility",
+  "historyId" : "8457a5dceb92ba85c145357964808a6",
+  "time" : {
+    "start" : 1759313169742,
+    "stop" : 1759313169796,
+    "duration" : 54
+  },
+  "description" : "Verify company logo is visible on homepage",
+  "descriptionHtml" : "<p>Verify company logo is visible on homepage</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "createContextAndPage",
+    "time" : {
+      "start" : 1759313165713,
+      "stop" : 1759313165826,
+      "duration" : 113
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1759313165975,
+      "stop" : 1759313169699,
+      "duration" : 3724
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigate to homepage and wait for load",
+      "time" : {
+        "start" : 1759313166006,
+        "stop" : 1759313169699,
+        "duration" : 3693
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "launchBrowser",
+    "time" : {
+      "start" : 1759313163532,
+      "stop" : 1759313165671,
+      "duration" : 2139
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify company logo is visible on homepage",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "28470dbe9418f84a",
+      "name" : "Logo Check",
+      "source" : "28470dbe9418f84a.txt",
+      "type" : "text/plain",
+      "size" : 42
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeContext",
+    "time" : {
+      "start" : 1759313169806,
+      "stop" : 1759313170019,
+      "duration" : 213
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "closeBrowser",
+    "time" : {
+      "start" : 1759313179834,
+      "stop" : 1759313179964,
+      "duration" : 130
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "org.TestCases.HomePageTests"
+  }, {
+    "name" : "testClass",
+    "value" : "org.TestCases.HomePageTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testLogoVisibility"
+  }, {
+    "name" : "parentSuite",
+    "value" : "AutomationExercise Suite"
+  }, {
+    "name" : "suite",
+    "value" : "All Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "org.TestCases.HomePageTests"
+  }, {
+    "name" : "host",
+    "value" : "runnervm3ublj"
+  }, {
+    "name" : "thread",
+    "value" : "3511@runnervm3ublj.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Homepage"
+  }, {
+    "name" : "story",
+    "value" : "Homepage Visual Elements"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "40e3ac00efc9ec6.json",
+  "parameterValues" : [ ]
+}

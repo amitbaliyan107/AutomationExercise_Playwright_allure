@@ -1,0 +1,86 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "AutomationExercise Suite",
+    "children" : [ {
+      "name" : "All Tests",
+      "children" : [ {
+        "name" : "org.TestCases.HomePageTests",
+        "children" : [ {
+          "name" : "testLogoVisibility",
+          "uid" : "40e3ac00efc9ec6",
+          "parentUid" : "744f05e83bc807b944040025884d1443",
+          "status" : "passed",
+          "time" : {
+            "start" : 1759313169742,
+            "stop" : 1759313169796,
+            "duration" : 54
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testScrollToFooter",
+          "uid" : "bfd3f9b9a9550271",
+          "parentUid" : "744f05e83bc807b944040025884d1443",
+          "status" : "passed",
+          "time" : {
+            "start" : 1759313173127,
+            "stop" : 1759313173241,
+            "duration" : 114
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testScrollToProductSection",
+          "uid" : "c0ce2b2cf8a2619d",
+          "parentUid" : "744f05e83bc807b944040025884d1443",
+          "status" : "passed",
+          "time" : {
+            "start" : 1759313176061,
+            "stop" : 1759313176194,
+            "duration" : 133
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "744f05e83bc807b944040025884d1443"
+      }, {
+        "name" : "org.TestCases.ProductPage",
+        "children" : [ {
+          "name" : "SaleOfferImage",
+          "uid" : "8206be5ca43c1686",
+          "parentUid" : "d0a4ba020798162e0c32fda182d0b449",
+          "status" : "passed",
+          "time" : {
+            "start" : 1759313177666,
+            "stop" : 1759313177693,
+            "duration" : 27
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "searchProduct",
+          "uid" : "60f62fb5675de3fb",
+          "parentUid" : "d0a4ba020798162e0c32fda182d0b449",
+          "status" : "passed",
+          "time" : {
+            "start" : 1759313179307,
+            "stop" : 1759313179798,
+            "duration" : 491
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "d0a4ba020798162e0c32fda182d0b449"
+      } ],
+      "uid" : "597ef8a4009966e7ee1fac7acf8f5ecc"
+    } ],
+    "uid" : "7bdc33a6d6e668648b135090d14cfdfb"
+  } ]
+}

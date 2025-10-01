@@ -1,0 +1,51 @@
+[ {
+  "uid" : "40e3ac00efc9ec6",
+  "name" : "testLogoVisibility",
+  "time" : {
+    "start" : 1759313169742,
+    "stop" : 1759313169796,
+    "duration" : 54
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "bfd3f9b9a9550271",
+  "name" : "testScrollToFooter",
+  "time" : {
+    "start" : 1759313173127,
+    "stop" : 1759313173241,
+    "duration" : 114
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "c0ce2b2cf8a2619d",
+  "name" : "testScrollToProductSection",
+  "time" : {
+    "start" : 1759313176061,
+    "stop" : 1759313176194,
+    "duration" : 133
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "60f62fb5675de3fb",
+  "name" : "searchProduct",
+  "time" : {
+    "start" : 1759313179307,
+    "stop" : 1759313179798,
+    "duration" : 491
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8206be5ca43c1686",
+  "name" : "SaleOfferImage",
+  "time" : {
+    "start" : 1759313177666,
+    "stop" : 1759313177693,
+    "duration" : 27
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

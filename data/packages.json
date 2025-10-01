@@ -1,0 +1,82 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "org.TestCases",
+    "children" : [ {
+      "name" : "HomePageTests",
+      "children" : [ {
+        "name" : "testLogoVisibility",
+        "uid" : "40e3ac00efc9ec6",
+        "parentUid" : "87e2ecd7b68cf41ea0937ca526d7b9e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1759313169742,
+          "stop" : 1759313169796,
+          "duration" : 54
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testScrollToFooter",
+        "uid" : "bfd3f9b9a9550271",
+        "parentUid" : "87e2ecd7b68cf41ea0937ca526d7b9e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1759313173127,
+          "stop" : 1759313173241,
+          "duration" : 114
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testScrollToProductSection",
+        "uid" : "c0ce2b2cf8a2619d",
+        "parentUid" : "87e2ecd7b68cf41ea0937ca526d7b9e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1759313176061,
+          "stop" : 1759313176194,
+          "duration" : 133
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "87e2ecd7b68cf41ea0937ca526d7b9e0"
+    }, {
+      "name" : "ProductPage",
+      "children" : [ {
+        "name" : "SaleOfferImage",
+        "uid" : "8206be5ca43c1686",
+        "parentUid" : "cb71f160ace12b14a4ba7cb3545fe18c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1759313177666,
+          "stop" : 1759313177693,
+          "duration" : 27
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "searchProduct",
+        "uid" : "60f62fb5675de3fb",
+        "parentUid" : "cb71f160ace12b14a4ba7cb3545fe18c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1759313179307,
+          "stop" : 1759313179798,
+          "duration" : 491
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cb71f160ace12b14a4ba7cb3545fe18c"
+    } ],
+    "uid" : "org.TestCases"
+  } ]
+}

@@ -1,0 +1,78 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "runnervm3ublj",
+    "children" : [ {
+      "name" : "3511@runnervm3ublj.main(1)",
+      "children" : [ {
+        "name" : "SaleOfferImage",
+        "uid" : "8206be5ca43c1686",
+        "parentUid" : "e30e74d14cc4a9bcebca86de1cd4ee66",
+        "status" : "passed",
+        "time" : {
+          "start" : 1759313177666,
+          "stop" : 1759313177693,
+          "duration" : 27
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testLogoVisibility",
+        "uid" : "40e3ac00efc9ec6",
+        "parentUid" : "e30e74d14cc4a9bcebca86de1cd4ee66",
+        "status" : "passed",
+        "time" : {
+          "start" : 1759313169742,
+          "stop" : 1759313169796,
+          "duration" : 54
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "searchProduct",
+        "uid" : "60f62fb5675de3fb",
+        "parentUid" : "e30e74d14cc4a9bcebca86de1cd4ee66",
+        "status" : "passed",
+        "time" : {
+          "start" : 1759313179307,
+          "stop" : 1759313179798,
+          "duration" : 491
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testScrollToProductSection",
+        "uid" : "c0ce2b2cf8a2619d",
+        "parentUid" : "e30e74d14cc4a9bcebca86de1cd4ee66",
+        "status" : "passed",
+        "time" : {
+          "start" : 1759313176061,
+          "stop" : 1759313176194,
+          "duration" : 133
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testScrollToFooter",
+        "uid" : "bfd3f9b9a9550271",
+        "parentUid" : "e30e74d14cc4a9bcebca86de1cd4ee66",
+        "status" : "passed",
+        "time" : {
+          "start" : 1759313173127,
+          "stop" : 1759313173241,
+          "duration" : 114
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e30e74d14cc4a9bcebca86de1cd4ee66"
+    } ],
+    "uid" : "270f121a01a91a44e18988e72306d8ff"
+  } ]
+}
