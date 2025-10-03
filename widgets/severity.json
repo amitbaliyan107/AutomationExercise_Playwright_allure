@@ -1,50 +1,60 @@
 [ {
-  "uid" : "8206be5ca43c1686",
-  "name" : "SaleOfferImage",
+  "uid" : "54593731486315c2",
+  "name" : "testScrollToFooter",
   "time" : {
-    "start" : 1759313177666,
-    "stop" : 1759313177693,
-    "duration" : 27
+    "start" : 1759488380635,
+    "stop" : 1759488380750,
+    "duration" : 115
   },
   "status" : "passed",
-  "severity" : "normal"
+  "severity" : "minor"
 }, {
-  "uid" : "40e3ac00efc9ec6",
+  "uid" : "a6c4352e8419901d",
   "name" : "testLogoVisibility",
   "time" : {
-    "start" : 1759313169742,
-    "stop" : 1759313169796,
-    "duration" : 54
+    "start" : 1759488377870,
+    "stop" : 1759488377932,
+    "duration" : 62
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "60f62fb5675de3fb",
-  "name" : "searchProduct",
-  "time" : {
-    "start" : 1759313179307,
-    "stop" : 1759313179798,
-    "duration" : 491
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c0ce2b2cf8a2619d",
+  "uid" : "907520ed0662302e",
   "name" : "testScrollToProductSection",
   "time" : {
-    "start" : 1759313176061,
-    "stop" : 1759313176194,
-    "duration" : 133
+    "start" : 1759488383405,
+    "stop" : 1759488383541,
+    "duration" : 136
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "bfd3f9b9a9550271",
-  "name" : "testScrollToFooter",
+  "uid" : "19c728b810aebeb",
+  "name" : "testProductDetailsPage",
   "time" : {
-    "start" : 1759313173127,
-    "stop" : 1759313173241,
-    "duration" : 114
+    "start" : 1759488388711,
+    "stop" : 1759488420176,
+    "duration" : 31465
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c21f8d9e377f85e6",
+  "name" : "testProductListingPage",
+  "time" : {
+    "start" : 1759488386101,
+    "stop" : 1759488386139,
+    "duration" : 38
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "64f7a1f80914330",
+  "name" : "testSaleOfferImage",
+  "time" : {
+    "start" : 1759488424009,
+    "stop" : 1759488425409,
+    "duration" : 1400
   },
   "status" : "passed",
   "severity" : "minor"

@@ -4,12 +4,12 @@
     "uid" : "7bdc33a6d6e668648b135090d14cfdfb",
     "name" : "AutomationExercise Suite",
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 5,
       "unknown" : 0,
-      "total" : 5
+      "total" : 6
     }
   } ]
 }

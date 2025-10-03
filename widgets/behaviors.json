@@ -1,6 +1,17 @@
 {
-  "total" : 3,
+  "total" : 2,
   "items" : [ {
+    "uid" : "133ea74c557c7133cf0a48f667ccad97",
+    "name" : "Products",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
     "uid" : "d757020284559bc1a38ee21b80742ffc",
     "name" : "Homepage",
     "statistic" : {
