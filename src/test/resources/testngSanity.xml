@@ -2,12 +2,12 @@
 <suite name="AutomationExercise Suite" parallel="classes" thread-count="2">
     <test name="All Tests">
         <classes>
-            <class name="org.TestCases.homePage">
+            <class name="org.TestCases.HomePageTests">
                 <methods>
                     <include name="testLogo"/>
                 </methods>
             </class>
-            <class name="org.TestCases.ProductPage">
+            <class name="org.TestCases.ProductPageTest">
                 <methods>
                     <include name="SaleOfferImage"/>
                 </methods>
