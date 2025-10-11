@@ -1,61 +1,61 @@
 [ {
-  "uid" : "907520ed0662302e",
-  "name" : "testScrollToProductSection",
-  "time" : {
-    "start" : 1759488383405,
-    "stop" : 1759488383541,
-    "duration" : 136
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "64f7a1f80914330",
+  "uid" : "827574a86eecd62",
   "name" : "testSaleOfferImage",
   "time" : {
-    "start" : 1759488424009,
-    "stop" : 1759488425409,
-    "duration" : 1400
+    "start" : 1760175286044,
+    "stop" : 1760175287490,
+    "duration" : 1446
   },
   "status" : "passed",
   "severity" : "minor"
 }, {
-  "uid" : "19c728b810aebeb",
+  "uid" : "35024f452906ad50",
+  "name" : "testScrollToFooter",
+  "time" : {
+    "start" : 1760175241800,
+    "stop" : 1760175241927,
+    "duration" : 127
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "11ff214b8ba4e944",
+  "name" : "testLogoVisibility",
+  "time" : {
+    "start" : 1760175238907,
+    "stop" : 1760175238970,
+    "duration" : 63
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3a0de3af05fdbf13",
+  "name" : "testProductListingPage",
+  "time" : {
+    "start" : 1760175247592,
+    "stop" : 1760175247633,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "bbf6cc544697e006",
+  "name" : "testScrollToProductSection",
+  "time" : {
+    "start" : 1760175244763,
+    "stop" : 1760175244891,
+    "duration" : 128
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c2823ea71df2bc08",
   "name" : "testProductDetailsPage",
   "time" : {
-    "start" : 1759488388711,
-    "stop" : 1759488420176,
-    "duration" : 31465
+    "start" : 1760175250445,
+    "stop" : 1760175281885,
+    "duration" : 31440
   },
   "status" : "failed",
   "severity" : "normal"
-}, {
-  "uid" : "a6c4352e8419901d",
-  "name" : "testLogoVisibility",
-  "time" : {
-    "start" : 1759488377870,
-    "stop" : 1759488377932,
-    "duration" : 62
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "54593731486315c2",
-  "name" : "testScrollToFooter",
-  "time" : {
-    "start" : 1759488380635,
-    "stop" : 1759488380750,
-    "duration" : 115
-  },
-  "status" : "passed",
-  "severity" : "minor"
-}, {
-  "uid" : "c21f8d9e377f85e6",
-  "name" : "testProductListingPage",
-  "time" : {
-    "start" : 1759488386101,
-    "stop" : 1759488386139,
-    "duration" : 38
-  },
-  "status" : "passed",
-  "severity" : "critical"
 } ]

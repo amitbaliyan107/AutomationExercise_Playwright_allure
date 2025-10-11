@@ -1,0 +1,185 @@
+{
+  "uid" : "bbf6cc544697e006",
+  "name" : "testScrollToProductSection",
+  "fullName" : "org.TestCases.HomePageTests.testScrollToProductSection",
+  "historyId" : "f6b860bbf78933e6d6c99f88a6b654f6",
+  "time" : {
+    "start" : 1760175244763,
+    "stop" : 1760175244891,
+    "duration" : 128
+  },
+  "description" : "Verify product section is accessible by scrolling",
+  "descriptionHtml" : "<p>Verify product section is accessible by scrolling</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1760175242176,
+      "stop" : 1760175244760,
+      "duration" : 2584
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigate to homepage and wait for load",
+      "time" : {
+        "start" : 1760175242176,
+        "stop" : 1760175244760,
+        "duration" : 2584
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "createContextAndPage",
+    "time" : {
+      "start" : 1760175242132,
+      "stop" : 1760175242174,
+      "duration" : 42
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "launchBrowser",
+    "time" : {
+      "start" : 1760175233642,
+      "stop" : 1760175235675,
+      "duration" : 2033
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify product section is accessible by scrolling",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3c7582fed5e685db",
+      "name" : "Product Section",
+      "source" : "3c7582fed5e685db.txt",
+      "type" : "text/plain",
+      "size" : 40
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeContext",
+    "time" : {
+      "start" : 1760175244893,
+      "stop" : 1760175245076,
+      "duration" : 183
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "closeBrowser",
+    "time" : {
+      "start" : 1760175287736,
+      "stop" : 1760175287795,
+      "duration" : 59
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "org.TestCases.HomePageTests"
+  }, {
+    "name" : "testClass",
+    "value" : "org.TestCases.HomePageTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testScrollToProductSection"
+  }, {
+    "name" : "parentSuite",
+    "value" : "AutomationExercise Suite"
+  }, {
+    "name" : "suite",
+    "value" : "All Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "org.TestCases.HomePageTests"
+  }, {
+    "name" : "host",
+    "value" : "runnervmwhb2z"
+  }, {
+    "name" : "thread",
+    "value" : "3486@runnervmwhb2z.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Homepage"
+  }, {
+    "name" : "story",
+    "value" : "Homepage Products"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bbf6cc544697e006.json",
+  "parameterValues" : [ ]
+}

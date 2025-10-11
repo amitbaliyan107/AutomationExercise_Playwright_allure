@@ -4,87 +4,87 @@
   "children" : [ {
     "name" : "runnervmwhb2z",
     "children" : [ {
-      "name" : "3497@runnervmwhb2z.main(1)",
+      "name" : "3486@runnervmwhb2z.main(1)",
       "children" : [ {
-        "name" : "testScrollToFooter",
-        "uid" : "54593731486315c2",
-        "parentUid" : "250e491c4247394f8f9f1384f44b144e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1759488380635,
-          "stop" : 1759488380750,
-          "duration" : 115
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "testProductDetailsPage",
-        "uid" : "19c728b810aebeb",
-        "parentUid" : "250e491c4247394f8f9f1384f44b144e",
+        "uid" : "c2823ea71df2bc08",
+        "parentUid" : "324fee55661238d690718e6817533b0b",
         "status" : "failed",
         "time" : {
-          "start" : 1759488388711,
-          "stop" : 1759488420176,
-          "duration" : 31465
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "testProductListingPage",
-        "uid" : "c21f8d9e377f85e6",
-        "parentUid" : "250e491c4247394f8f9f1384f44b144e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1759488386101,
-          "stop" : 1759488386139,
-          "duration" : 38
+          "start" : 1760175250445,
+          "stop" : 1760175281885,
+          "duration" : 31440
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "testLogoVisibility",
-        "uid" : "a6c4352e8419901d",
-        "parentUid" : "250e491c4247394f8f9f1384f44b144e",
+        "uid" : "11ff214b8ba4e944",
+        "parentUid" : "324fee55661238d690718e6817533b0b",
         "status" : "passed",
         "time" : {
-          "start" : 1759488377870,
-          "stop" : 1759488377932,
-          "duration" : 62
+          "start" : 1760175238907,
+          "stop" : 1760175238970,
+          "duration" : 63
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "testScrollToProductSection",
-        "uid" : "907520ed0662302e",
-        "parentUid" : "250e491c4247394f8f9f1384f44b144e",
+        "uid" : "bbf6cc544697e006",
+        "parentUid" : "324fee55661238d690718e6817533b0b",
         "status" : "passed",
         "time" : {
-          "start" : 1759488383405,
-          "stop" : 1759488383541,
-          "duration" : 136
+          "start" : 1760175244763,
+          "stop" : 1760175244891,
+          "duration" : 128
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testProductListingPage",
+        "uid" : "3a0de3af05fdbf13",
+        "parentUid" : "324fee55661238d690718e6817533b0b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1760175247592,
+          "stop" : 1760175247633,
+          "duration" : 41
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "testSaleOfferImage",
-        "uid" : "64f7a1f80914330",
-        "parentUid" : "250e491c4247394f8f9f1384f44b144e",
+        "uid" : "827574a86eecd62",
+        "parentUid" : "324fee55661238d690718e6817533b0b",
         "status" : "passed",
         "time" : {
-          "start" : 1759488424009,
-          "stop" : 1759488425409,
-          "duration" : 1400
+          "start" : 1760175286044,
+          "stop" : 1760175287490,
+          "duration" : 1446
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testScrollToFooter",
+        "uid" : "35024f452906ad50",
+        "parentUid" : "324fee55661238d690718e6817533b0b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1760175241800,
+          "stop" : 1760175241927,
+          "duration" : 127
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "250e491c4247394f8f9f1384f44b144e"
+      "uid" : "324fee55661238d690718e6817533b0b"
     } ],
     "uid" : "4431318c99c847c9045f31fb87391744"
   } ]
