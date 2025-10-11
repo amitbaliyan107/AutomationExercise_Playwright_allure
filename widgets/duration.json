@@ -1,61 +1,61 @@
 [ {
-  "uid" : "827574a86eecd62",
-  "name" : "testSaleOfferImage",
-  "time" : {
-    "start" : 1760175286044,
-    "stop" : 1760175287490,
-    "duration" : 1446
-  },
-  "status" : "passed",
-  "severity" : "minor"
-}, {
-  "uid" : "35024f452906ad50",
-  "name" : "testScrollToFooter",
-  "time" : {
-    "start" : 1760175241800,
-    "stop" : 1760175241927,
-    "duration" : 127
-  },
-  "status" : "passed",
-  "severity" : "minor"
-}, {
-  "uid" : "11ff214b8ba4e944",
-  "name" : "testLogoVisibility",
-  "time" : {
-    "start" : 1760175238907,
-    "stop" : 1760175238970,
-    "duration" : 63
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "3a0de3af05fdbf13",
-  "name" : "testProductListingPage",
-  "time" : {
-    "start" : 1760175247592,
-    "stop" : 1760175247633,
-    "duration" : 41
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "bbf6cc544697e006",
+  "uid" : "4096fb3f98248733",
   "name" : "testScrollToProductSection",
   "time" : {
-    "start" : 1760175244763,
-    "stop" : 1760175244891,
-    "duration" : 128
+    "start" : 1760175598804,
+    "stop" : 1760175598895,
+    "duration" : 91
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c2823ea71df2bc08",
+  "uid" : "4e6a5ac0e95422d6",
+  "name" : "testLogoVisibility",
+  "time" : {
+    "start" : 1760175593198,
+    "stop" : 1760175593266,
+    "duration" : 68
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7d152044c833105e",
+  "name" : "testProductListingPage",
+  "time" : {
+    "start" : 1760175601645,
+    "stop" : 1760175601683,
+    "duration" : 38
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f5c1118c73173bc9",
+  "name" : "testScrollToFooter",
+  "time" : {
+    "start" : 1760175596008,
+    "stop" : 1760175596112,
+    "duration" : 104
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "b3d527d7c40291f0",
   "name" : "testProductDetailsPage",
   "time" : {
-    "start" : 1760175250445,
-    "stop" : 1760175281885,
-    "duration" : 31440
+    "start" : 1760175604528,
+    "stop" : 1760175635978,
+    "duration" : 31450
   },
   "status" : "failed",
   "severity" : "normal"
+}, {
+  "uid" : "dc67b2fcc7cf9a59",
+  "name" : "testSaleOfferImage",
+  "time" : {
+    "start" : 1760175640783,
+    "stop" : 1760175642131,
+    "duration" : 1348
+  },
+  "status" : "passed",
+  "severity" : "minor"
 } ]

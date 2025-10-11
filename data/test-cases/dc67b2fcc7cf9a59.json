@@ -1,0 +1,185 @@
+{
+  "uid" : "dc67b2fcc7cf9a59",
+  "name" : "testSaleOfferImage",
+  "fullName" : "org.TestCases.ProductPageTest.testSaleOfferImage",
+  "historyId" : "db71410645367845a75851bf4c380bb8",
+  "time" : {
+    "start" : 1760175640783,
+    "stop" : 1760175642131,
+    "duration" : 1348
+  },
+  "description" : "Verify sale offer image is visible on the products page",
+  "descriptionHtml" : "<p>Verify sale offer image is visible on the products page</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "createContextAndPage",
+    "time" : {
+      "start" : 1760175637062,
+      "stop" : 1760175637115,
+      "duration" : 53
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1760175637122,
+      "stop" : 1760175640780,
+      "duration" : 3658
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigate to products page and wait for load",
+      "time" : {
+        "start" : 1760175637122,
+        "stop" : 1760175640780,
+        "duration" : 3658
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "launchBrowser",
+    "time" : {
+      "start" : 1760175587974,
+      "stop" : 1760175589886,
+      "duration" : 1912
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify sale offer image is visible on the products page",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e5c755d394045a7d",
+      "name" : "Sale Offer",
+      "source" : "e5c755d394045a7d.png",
+      "type" : "image/png",
+      "size" : 3002702
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeContext",
+    "time" : {
+      "start" : 1760175642134,
+      "stop" : 1760175642301,
+      "duration" : 167
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "closeBrowser",
+    "time" : {
+      "start" : 1760175642394,
+      "stop" : 1760175642476,
+      "duration" : 82
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "org.TestCases.ProductPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "org.TestCases.ProductPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSaleOfferImage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "AutomationExercise Suite"
+  }, {
+    "name" : "suite",
+    "value" : "All Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "org.TestCases.ProductPageTest"
+  }, {
+    "name" : "host",
+    "value" : "runnervmwhb2z"
+  }, {
+    "name" : "thread",
+    "value" : "3517@runnervmwhb2z.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Sale Offer"
+  }, {
+    "name" : "feature",
+    "value" : "Products"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dc67b2fcc7cf9a59.json",
+  "parameterValues" : [ ]
+}

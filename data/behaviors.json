@@ -7,13 +7,13 @@
       "name" : "Homepage Visual Elements",
       "children" : [ {
         "name" : "testLogoVisibility",
-        "uid" : "11ff214b8ba4e944",
+        "uid" : "4e6a5ac0e95422d6",
         "parentUid" : "7ef85eb7ce2eaa27064cbb1a0a22e05a",
         "status" : "passed",
         "time" : {
-          "start" : 1760175238907,
-          "stop" : 1760175238970,
-          "duration" : 63
+          "start" : 1760175593198,
+          "stop" : 1760175593266,
+          "duration" : 68
         },
         "flaky" : false,
         "newFailed" : false,
@@ -24,13 +24,13 @@
       "name" : "Homepage Navigation",
       "children" : [ {
         "name" : "testScrollToFooter",
-        "uid" : "35024f452906ad50",
+        "uid" : "f5c1118c73173bc9",
         "parentUid" : "b749b5fa682c94cda76abe86e21170b1",
         "status" : "passed",
         "time" : {
-          "start" : 1760175241800,
-          "stop" : 1760175241927,
-          "duration" : 127
+          "start" : 1760175596008,
+          "stop" : 1760175596112,
+          "duration" : 104
         },
         "flaky" : false,
         "newFailed" : false,
@@ -41,13 +41,13 @@
       "name" : "Homepage Products",
       "children" : [ {
         "name" : "testScrollToProductSection",
-        "uid" : "bbf6cc544697e006",
+        "uid" : "4096fb3f98248733",
         "parentUid" : "8e470ff77997da6e2e669d50f9c5fcc5",
         "status" : "passed",
         "time" : {
-          "start" : 1760175244763,
-          "stop" : 1760175244891,
-          "duration" : 128
+          "start" : 1760175598804,
+          "stop" : 1760175598895,
+          "duration" : 91
         },
         "flaky" : false,
         "newFailed" : false,
@@ -62,13 +62,13 @@
       "name" : "Product Listing",
       "children" : [ {
         "name" : "testProductListingPage",
-        "uid" : "3a0de3af05fdbf13",
+        "uid" : "7d152044c833105e",
         "parentUid" : "5df503c5b2620fdc2ea298912998e204",
         "status" : "passed",
         "time" : {
-          "start" : 1760175247592,
-          "stop" : 1760175247633,
-          "duration" : 41
+          "start" : 1760175601645,
+          "stop" : 1760175601683,
+          "duration" : 38
         },
         "flaky" : false,
         "newFailed" : false,
@@ -79,13 +79,13 @@
       "name" : "Product Details",
       "children" : [ {
         "name" : "testProductDetailsPage",
-        "uid" : "c2823ea71df2bc08",
+        "uid" : "b3d527d7c40291f0",
         "parentUid" : "39ffd6e9d4c4778ec17fb5c3b38a8b77",
         "status" : "failed",
         "time" : {
-          "start" : 1760175250445,
-          "stop" : 1760175281885,
-          "duration" : 31440
+          "start" : 1760175604528,
+          "stop" : 1760175635978,
+          "duration" : 31450
         },
         "flaky" : false,
         "newFailed" : false,
@@ -96,13 +96,13 @@
       "name" : "Sale Offer",
       "children" : [ {
         "name" : "testSaleOfferImage",
-        "uid" : "827574a86eecd62",
+        "uid" : "dc67b2fcc7cf9a59",
         "parentUid" : "d30722b4f75fae4c03340b55f5b68e15",
         "status" : "passed",
         "time" : {
-          "start" : 1760175286044,
-          "stop" : 1760175287490,
-          "duration" : 1446
+          "start" : 1760175640783,
+          "stop" : 1760175642131,
+          "duration" : 1348
         },
         "flaky" : false,
         "newFailed" : false,

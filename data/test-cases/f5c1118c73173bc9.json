@@ -1,0 +1,185 @@
+{
+  "uid" : "f5c1118c73173bc9",
+  "name" : "testScrollToFooter",
+  "fullName" : "org.TestCases.HomePageTests.testScrollToFooter",
+  "historyId" : "4bc414b4ffb24e219d159d40d2e784a2",
+  "time" : {
+    "start" : 1760175596008,
+    "stop" : 1760175596112,
+    "duration" : 104
+  },
+  "description" : "Verify ability to scroll to footer section",
+  "descriptionHtml" : "<p>Verify ability to scroll to footer section</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1760175593535,
+      "stop" : 1760175596005,
+      "duration" : 2470
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigate to homepage and wait for load",
+      "time" : {
+        "start" : 1760175593535,
+        "stop" : 1760175596005,
+        "duration" : 2470
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "createContextAndPage",
+    "time" : {
+      "start" : 1760175593491,
+      "stop" : 1760175593533,
+      "duration" : 42
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "launchBrowser",
+    "time" : {
+      "start" : 1760175587974,
+      "stop" : 1760175589886,
+      "duration" : 1912
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify ability to scroll to footer section",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4ca43ae54fef9cbf",
+      "name" : "Footer Scroll",
+      "source" : "4ca43ae54fef9cbf.txt",
+      "type" : "text/plain",
+      "size" : 39
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeContext",
+    "time" : {
+      "start" : 1760175596116,
+      "stop" : 1760175596307,
+      "duration" : 191
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "closeBrowser",
+    "time" : {
+      "start" : 1760175642394,
+      "stop" : 1760175642476,
+      "duration" : 82
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "org.TestCases.HomePageTests"
+  }, {
+    "name" : "testClass",
+    "value" : "org.TestCases.HomePageTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testScrollToFooter"
+  }, {
+    "name" : "parentSuite",
+    "value" : "AutomationExercise Suite"
+  }, {
+    "name" : "suite",
+    "value" : "All Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "org.TestCases.HomePageTests"
+  }, {
+    "name" : "host",
+    "value" : "runnervmwhb2z"
+  }, {
+    "name" : "thread",
+    "value" : "3517@runnervmwhb2z.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Homepage"
+  }, {
+    "name" : "story",
+    "value" : "Homepage Navigation"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f5c1118c73173bc9.json",
+  "parameterValues" : [ ]
+}
